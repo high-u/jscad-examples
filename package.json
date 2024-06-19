@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "help": "jscad",
-    "debug": "jscad src/index.js -o dist/index.stl",
-    "build": "jscad src/index.js -o dist/index.obj -of obj"
+    "debug": "jscad src/${npm_config_file}.js -o src/debug.stl -of stla",
+    "build": "jscad src/${npm_config_file}.js -o dist/${npm_config_file}.x3d -of x3d"
   },
   "keywords": [],
   "author": "",
